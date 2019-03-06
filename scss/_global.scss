@@ -10,6 +10,10 @@ html {
     color: fade-out($white, .25);
 }
 
+.text-white-65 {
+    color: fade-out($white, .35);
+}
+
 // Custom horizontal rules
 hr.divider {
     max-width: 3.25rem;
@@ -38,4 +42,12 @@ hr.light {
 // Page section padding
 .page-section {
     padding: 8rem 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 70%!important;
+    height: 175px!important;
+    margin-bottom: 20px;
 }
