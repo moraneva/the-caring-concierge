@@ -92,7 +92,8 @@ function js() {
 function html() {
     return gulp
         .src([
-            'index.html'
+            'index.html',
+            'favicon.ico'
         ]).pipe(gulp.dest('./dist'))
         .pipe(browsersync.stream());
 }

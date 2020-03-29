@@ -14,6 +14,10 @@ html {
     color: fade-out($white, .35);
 }
 
+.text-dark-75 {
+    color: fade-out($color: #000000, $amount: .25)
+}
+
 // Custom horizontal rules
 hr.divider {
     max-width: 3.25rem;
@@ -42,6 +46,10 @@ hr.light {
 // Page section padding
 .page-section {
     padding: 8rem 0;
+}
+
+.facebook-section {
+    padding: 1rem 0;
 }
 
 img {

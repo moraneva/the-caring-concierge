@@ -22,9 +22,14 @@
     <!-- Theme CSS - Includes Bootstrap -->
     <link href="creative.min.css" rel="stylesheet">
 
+    <link rel="icon" href="favicon.ico">
+
 </head>
 
 <body id="page-top">
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=1802639693395524&autoLogAppEvents=1"></script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -68,32 +73,17 @@
         <div class="bg-circle-4 bg-circle"></div>
     </header>
 
-    <!-- About Section -->
-    <section class="page-section" id="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">About Me</h2>
-                    <hr class="divider my-4">
-                    <p class="mb-4">Simply stated - I LOVE people! The Caring Concierge was conceived to assist families and their loved ones with non-medical caring assistance. So many folks find themselves hanging on to their last bit of independence - staying in their
-                        own home. Independence is maintained, but isolation is also very real. Let me help. I bring a fresh perspective to what can often times be daunting for families. Today's world makes it hard to focus on a full time career as well
-                        as nurturing and providing companionship for our elder loved ones. Call me today to meet and discuss how I can help you and/or your loved one. </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Services Section -->
-    <section class="page-section bg-primary" id="services">
+    <section class="page-section" id="services">
         <div class="container">
-            <h2 class="text-white text-center mt-0">Services</h2>
-            <hr class="divider light my-4">
+            <h2 class="text-center mt-0">Services</h2>
+            <hr class="divider my-4">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="mt-5">
                         <img src="assets/companionship.jpg" class="img-fluid rounded-circle" />
-                        <h3 class="text-white h4 mb-2 text-center">Companionship</h3>
-                        <ul class="text-white-65 mb-0">
+                        <h3 class="h4 mb-2 text-center">Companionship</h3>
+                        <ul class="text-muted mb-0">
                             <li>
                                 Wellness check and simple conversation
                             </li>
@@ -115,8 +105,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="mt-5">
                         <img src="assets/cutting-board.jpg" class="img-fluid rounded-circle" />
-                        <h3 class="text-white h4 mb-2 text-center">Meal Prep/Light Housekeeping</h3>
-                        <ul class="text-white-65 mb-0">
+                        <h3 class="h4 mb-2 text-center">Meal Prep/Light Housekeeping</h3>
+                        <ul class="text-muted mb-0">
                             <li>
                                 Prepare desired food(s)
                             </li>
@@ -132,8 +122,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="mt-5">
                         <img src="assets/church.jpg" class="img-fluid rounded-circle" />
-                        <h3 class="text-white h4 mb-2 text-center">Social Outings</h3>
-                        <ul class="text-white-65 mb-0">
+                        <h3 class="h4 mb-2 text-center">Social Outings</h3>
+                        <ul class="text-muted mb-0">
                             <li>
                                 Church
                             </li>
@@ -155,8 +145,8 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6">
                     <div class="mt-5">
                         <img src="assets/correspondence.jpg" class="img-fluid rounded-circle" />
-                        <h3 class="text-white h4 mb-2 text-center">Correspondence Assistance</h3>
-                        <ul class="text-white-65 mb-0">
+                        <h3 class="h4 mb-2 text-center">Correspondence Assistance</h3>
+                        <ul class="text-muted mb-0">
                             <li>
                                 Construct and send cards/letters
                             </li>
@@ -175,8 +165,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="mt-5">
                         <img src="assets/airport.jpg" class="img-fluid rounded-circle" />
-                        <h3 class="text-white h4 mb-2 text-center">Transportation Services</h3>
-                        <ul class="text-white-65 mb-0">
+                        <h3 class="h4 mb-2 text-center">Transportation Services</h3>
+                        <ul class="text-muted mb-0">
                             <li>
                                 To/from Dr. appointment(s)
                             </li>
@@ -257,6 +247,22 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section class="page-section bg-primary" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center text-white">
+                    <h2 class="mt-0">About Me</h2>
+                    <hr class="divider light my-4">
+                    <img src="assets/june.jpg" class="img-fluid rounded-circle" />
+                    <p class="mb-4">Simply stated - I LOVE people! The Caring Concierge was conceived to assist families and their loved ones with non-medical caring assistance. So many folks find themselves hanging on to their last bit of independence - staying in their
+                        own home. Independence is maintained, but isolation is also very real. Let me help. I bring a fresh perspective to what can often times be daunting for families. Today's world makes it hard to focus on a full time career as well
+                        as nurturing and providing companionship for our elder loved ones. Call me today to meet and discuss how I can help you and/or your loved one. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section class="page-section" id="contact">
         <div class="container">
@@ -276,6 +282,19 @@
                     <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                     <!-- Make sure to change the email address in anchor text AND the link below! -->
                     <a class="d-block" href="mailto:june@thecaringconcierge.net">june@thecaringconcierge.net</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facebook-section bg-primary" id="facebook-feed">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center text-white">
+                    <h2 class="mt-0">Facebook Feed</h2>
+                    <div class="fb-page" data-href="https://www.facebook.com/The-Caring-Concierge-LLC-587398058437602/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/The-Caring-Concierge-LLC-587398058437602/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/The-Caring-Concierge-LLC-587398058437602/">The Caring Concierge, LLC</a></blockquote>
+                    </div>
                 </div>
             </div>
         </div>
